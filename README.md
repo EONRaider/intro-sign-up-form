@@ -1,7 +1,7 @@
 # Frontend Mentor - Intro Component with Sign-Up Form solution
 
-[![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/Havoc-Solutions/intro-sign-up-form?label=CodeFactor&logo=codefactor&style=flat-square)](https://www.codefactor.io/repository/github/Havoc-Solutions/intro-sign-up-form)
-![W3C Validation](https://img.shields.io/w3c-validation/html?style=flat-square&targetUrl=https%3A%2F%2Feonraider-intro-sign-up-form.netlify.app%2F)
+[![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/Havoc-Solutions/intro-sign-up-form?label=CodeFactor\&logo=codefactor\&style=flat-square)](https://www.codefactor.io/repository/github/Havoc-Solutions/intro-sign-up-form)
+![W3C Validation](https://img.shields.io/w3c-validation/html?style=flat-square\&targetUrl=https%3A%2F%2Feonraider-intro-sign-up-form.netlify.app%2F)
 [![FrontendMentor](https://img.shields.io/badge/FrontendMentor-EONRaider-blue?style=flat-square)](https://www.frontendmentor.io/profile/EONRaider)
 
 This is a solution to [Intro Component with Sign-Up Form](). Frontend Mentor challenges help you
@@ -9,21 +9,21 @@ improve your coding skills by building realistic projects.
 
 ## Table of contents
 
-- [Overview](#overview)
-    - [Links](#links)
-    - [Screenshot](#screenshot)
-- [Try it out!](#try-it-out)
-    - [Run with Node.js](#run-with-nodejs)
-    - [Run with Docker](#run-with-docker)
-- [My process](#my-process)
-    - [Built with](#built-with)
+* [Overview](#overview)
+  * [Links](#links)
+  * [Screenshot](#screenshot)
+* [Try it out!](#try-it-out)
+  * [Run with Node.js](#run-with-nodejs)
+  * [Run with Docker](#run-with-docker)
+* [My process](#my-process)
+  * [Built with](#built-with)
 
 ## Overview
 
 ### Links
 
-- [Check the Live Site](https://eonraider-intro-sign-up-form.netlify.app/)
-- [My Solution on Frontend Mentor]()
+* [Check the Live Site](https://eonraider-intro-sign-up-form.netlify.app/)
+* [My Solution on Frontend Mentor]()
 
 ### Screenshot
 
@@ -58,5 +58,5 @@ docker run -d -p 3000:3000 eonraider/intro-sign-up-form
 
 ### Built with
 
-- Semantic HTML5 markup
-- Cube CSS methodology
+* Semantic HTML5 markup
+* Cube CSS methodology
