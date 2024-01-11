@@ -17,7 +17,6 @@ improve your coding skills by building realistic projects.
     - [Run with Docker](#run-with-docker)
 - [My process](#my-process)
     - [Built with](#built-with)
-    - [What I learned](#what-i-learned)
 
 ## Overview
 
@@ -61,5 +60,3 @@ docker run -d -p 3000:3000 eonraider/intro-sign-up-form
 
 - Semantic HTML5 markup
 - Cube CSS methodology
-
-### What I learned
