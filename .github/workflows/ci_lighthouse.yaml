@@ -1,4 +1,4 @@
-name: Lighthouse
+name: CI - Lighthouse Audit
 on: push
 
 jobs:
