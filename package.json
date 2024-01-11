@@ -1,7 +1,7 @@
 {
-  "name": "project",
+  "name": "intro-sign-up-form",
   "version": "1.0.0",
-  "description": "A brief description of project",
+  "description": "A sign-up page for a coding e-learning free trial offer",
   "main": "app.js",
   "type": "module",
   "scripts": {
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EONRaider/Project.git"
+    "url": "git+https://github.com/Havoc-Solutions/intro-sign-up-form.git"
   },
   "author": "EONRaider",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/EONRaider/Project/issues"
+    "url": "https://github.com/Havoc-Solutions/intro-sign-up-form/issues"
   },
-  "homepage": "https://github.com/EONRaider/Project#readme",
+  "homepage": "https://github.com/Havoc-Solutions/intro-sign-up-form#readme",
   "devDependencies": {
     "eslint": "^8.56.0",
     "eslint-config-airbnb": "^19.0.4",
