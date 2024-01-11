@@ -1,13 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
-    <title></title>
-  </head>
-  <body>
-    <script async src="js/script.js" type="text/javascript"></script>
-  </body>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+        <title>Intro Component with Sign-Up Form</title>
+    </head>
+
+    <body class="| [ bg-image ] [ flex-center ] [ bg-primary ]">
+        <main class="| [ flex-space ]">
+            <article class="hero | [ flex-center ] [ clr-primary ]">
+                <h1 class="| [ fnt-bold ]">Learn to code by watching others</h1>
+                <p class="| [ fnt-medium ]">See how experienced developers solve problems in real-time. Watching
+                    scripted tutorials is great, but
+                    understanding how developers think is invaluable. </p>
+            </article>
+
+            <div class="action | [ flex-space-stretch ] [ fnt-bold ]">
+                <div class="offer | [ clr-primary ] [ fnt-bold ] [ b-shadow-primary ]">
+                    Try it free 7 days <span class="| [ fnt-regular ]">then $20/mo. thereafter</span>
+                </div>
+
+                <form class="| [ flow ] [ bg-secondary ] [ b-shadow-primary ]">
+                    <input aria-label="First Name" placeholder="First Name" type="text">
+                    <input aria-label="Last Name" placeholder="Last Name" type="text">
+                    <input aria-label="Email Address" placeholder="Email Address" type="text">
+                    <input aria-label="Password" placeholder="Password" type="password">
+                    <button class="| [ clr-primary ] [ fnt-semi-bold ]">Claim your free trial</button>
+                    <p class="| [ fnt-medium ]">By clicking the button, you are agreeing to our
+                        <span class="| [ clr-exception ] [ fnt-bold ]">Terms and Services</span></p>
+                </form>
+            </div>
+        </main>
+        <script src="js/script.js"></script>
+    </body>
 </html>
