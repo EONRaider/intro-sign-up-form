@@ -1,0 +1,36 @@
+/* === START CSS RESET === https://andy-bell.co.uk/a-more-modern-css-reset/ */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body, h1, h2, p {
+    margin: 0;
+}
+
+/* Make images easier to work with */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* === END CSS RESET === */
+
+/* COMPOSITION */
+
+/* UTILITIES */
+
+/* BLOCK */
+
+/* EXCEPTIONS */
