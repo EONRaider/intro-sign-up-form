@@ -28,6 +28,8 @@ improve your coding skills by building realistic projects.
 
 ### Screenshot
 
+![Intro-Component-with-Sign-Up-Form](https://github.com/Havoc-Solutions/intro-sign-up-form/assets/15611424/954f4e11-b756-490d-9263-20cdf2ff3d76)
+
 ## Try it out!
 
 ### Run with Node.js
