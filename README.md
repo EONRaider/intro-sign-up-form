@@ -17,6 +17,7 @@ improve your coding skills by building realistic projects.
   * [Run with Docker](#run-with-docker)
 * [My process](#my-process)
   * [Built with](#built-with)
+  * [What I learned](#what-i-learned)
 
 ## Overview
 
@@ -60,3 +61,13 @@ docker run -d -p 3000:3000 eonraider/intro-sign-up-form
 
 * Semantic HTML5 markup
 * Cube CSS methodology
+
+### What I learned
+
+* This project took me a few more hours than expected to complete when it came to JavaScript. I wanted to make use of
+  the opportunity to try more complex code than I got used to in these humble 3 weeks of frontend development
+  experience.
+  This time I managed to use ES6 classes syntax along with inheritance and polymorphism to make the code as re-usable as
+  possible.
+* Seeing how clumsy it is to implement an abstract base class in JavaScript I decided to take a look into TypeScript for
+  my next projects. This will be a good addition to my skill set.
