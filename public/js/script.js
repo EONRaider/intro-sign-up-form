@@ -6,7 +6,7 @@ import SignUpForm from './modules/signUpForm.js';
 const firstName = new ValidatedTextField({
   inputFieldClass: '.input-first-name',
   formClass: '.action form',
-  errorMessage: 'Fist Name cannot be empty',
+  errorMessage: 'First Name cannot be empty',
 });
 
 const lastName = new ValidatedTextField({
