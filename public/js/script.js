@@ -9,7 +9,7 @@ const firstName = new ValidatedTextField({
   errorMessage: 'Fist Name cannot be empty',
 });
 
-const secondName = new ValidatedTextField({
+const lastName = new ValidatedTextField({
   inputFieldClass: '.input-last-name',
   formClass: '.action form',
   errorMessage: 'Last Name cannot be empty',
@@ -28,5 +28,5 @@ const email = new ValidatedEmailField({
 });
 
 new SignUpForm({ formClass: '.action form', submitButtonClass: '.action form button' })
-  .addFields([firstName, secondName, password, email])
+  .addFields([firstName, lastName, password, email])
   .start();
