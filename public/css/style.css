@@ -230,8 +230,9 @@ main {
     border-color: var(--clr-purple-100);
 }
 
-.action form button:hover {
+.action form button:hover, .action form button:focus {
     cursor: pointer;
+    outline: none;
     background-color: var(--clr-green-600);
 }
 
