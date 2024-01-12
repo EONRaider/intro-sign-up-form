@@ -4,8 +4,9 @@
 ![W3C Validation](https://img.shields.io/w3c-validation/html?style=flat-square\&targetUrl=https%3A%2F%2Feonraider-intro-sign-up-form.netlify.app%2F)
 [![FrontendMentor](https://img.shields.io/badge/FrontendMentor-EONRaider-blue?style=flat-square)](https://www.frontendmentor.io/profile/EONRaider)
 
-This is a solution to [Intro Component with Sign-Up Form](). Frontend Mentor challenges help you
-improve your coding skills by building realistic projects.
+This is a solution
+to [Intro Component with Sign-Up Form](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1).
+Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -71,3 +72,6 @@ docker run -d -p 3000:3000 eonraider/intro-sign-up-form
   possible.
 * Seeing how clumsy it is to implement an abstract base class in JavaScript I decided to take a look into TypeScript for
   my next projects. This will be a good addition to my skill set.
+* I also took some hours in this project to set up a GitHub organization that would allow me to share secrets between
+  all repositories so that my CI/CD actions could run smoothly with as little manual intervention as possible.
+* A CI action was added to automatically provide a Lighthouse code audit on pushes to the master branch. 
