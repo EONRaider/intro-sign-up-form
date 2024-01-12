@@ -87,8 +87,9 @@ main {
 }
 
 .action {
-    height: var(--action-height, 558px);
+    min-height: var(--action-height, 558px);
     flex-direction: column;
+    gap: 24px;
 }
 
 /* UTILITIES */
@@ -127,15 +128,14 @@ main {
     align-items: center;
 }
 
-.flex-space {
+.flex-space-center {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.flex-space-stretch {
+.flex-start-stretch {
     display: flex;
-    justify-content: space-between;
     align-items: stretch;
 }
 
@@ -168,7 +168,7 @@ main {
     line-height: 26px;
 }
 
-.action .offer {
+.offer {
     width: var(--offer-width, 540px);
     padding: var(--offer-padding, 17px 110px);
     background-color: var(--clr-purple-100);
@@ -180,18 +180,19 @@ main {
 
 .action form {
     --flow-space: 20px;
-    height: var(--form-height, 474px);
+    min-height: var(--form-height, 474px);
     padding: var(--form-padding, 40px);
     border-radius: 10px;
 }
 
-.action form input {
+.input-field {
     width: 100%;
+    height: 56px;
     display: block;
     outline: none;
     border: 1px solid var(--clr-white-600);
     border-radius: 5px;
-    padding: var(--form-input-padding, 15px 0 15px 32px);
+    padding: var(--input-field-padding, 15px 0 15px 32px);
     color: var(--clr-purple-50);
     font-size: 14px;
     font-weight: 600;
@@ -199,13 +200,13 @@ main {
     letter-spacing: 0.25px;
 }
 
-.action form input::placeholder {
+.input-field::placeholder {
     opacity: 0.75;
 }
 
 .action form button {
     width: 100%;
-    padding: 15px 0;
+    padding-block: 15px;
     border: none;
     border-radius: 5px;
     background-color: var(--clr-green-400);
@@ -225,7 +226,7 @@ main {
 }
 
 /* EXCEPTIONS */
-.action form input:hover, .action form input:focus {
+.input-field:hover, .input-field:focus {
     border-color: var(--clr-purple-100);
 }
 
@@ -234,6 +235,24 @@ main {
     background-color: var(--clr-green-600);
 }
 
+.error, .error:hover, .error:focus {
+    border: 2px solid var(--clr-salmon-400);
+    background-image: url("../images/icon-error.svg");
+    background-repeat: no-repeat;
+    background-position: center right 27px;
+}
+
+.error-message {
+    color: var(--clr-salmon-400);
+    display: none;
+    margin-top: 6px;
+    text-align: right;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+/* DESKTOP VERSION */
 @media only screen and (width >= 1024px) {
     .bg-image {
         background-image: url("../images/bg-intro-desktop.png");
@@ -245,6 +264,7 @@ main {
     }
 }
 
+/* MOBILE VERSION */
 @media only screen and (width < 1024px) {
     :root {
         /* main */
@@ -270,7 +290,7 @@ main {
         /* action form */
         --form-height: 442px;
         --form-padding: 24px;
-        --form-input-padding: 15px 0 15px 19px;
+        --input-field-padding: 15px 0 15px 19px;
         --form-p-line-height: 21px;
     }
 
@@ -282,14 +302,14 @@ main {
     main {
         width: 375px;
         flex-direction: column;
-        padding: 0 24px;
+        padding-inline: 24px;
     }
 
     .hero {
         text-align: center;
     }
 
-    .action .offer {
+    .offer {
         text-align: center;
     }
 
