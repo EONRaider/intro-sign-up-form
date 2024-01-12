@@ -8,7 +8,7 @@ export default class ValidatedInputField {
     this.input = document.querySelector(inputFieldClass);
     this.form = document.querySelector(formClass);
     this.errorMessage = errorMessage;
-    this.isValid = true;
+    this.isValid = false;
     this.errorElement = this.buildErrorElement();
   }
 
