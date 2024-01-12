@@ -21,16 +21,34 @@
                     Try it free 7 days <span class="[ fnt-regular ]">then $20/mo. thereafter</span>
                 </div>
 
-                <form class="[ flow ] [ bg-secondary ] [ b-shadow-primary ]" onkeydown="return event.key !== 'Enter';">
-                    <input class="input-field input-first-name" aria-label="First Name" placeholder="First Name"
+                <form class="[ flow ] [ bg-secondary ] [ b-shadow-primary ]">
+                    <input name="first-name"
+                           class="input-field input-first-name"
+                           autocomplete="given-name"
+                           aria-label="First Name"
+                           placeholder="First Name"
                            type="text">
-                    <input class="input-field input-last-name" aria-label="Last Name" placeholder="Last Name"
+                    <input name="last-name"
+                           class="input-field input-last-name"
+                           autocomplete="family-name"
+                           aria-label="Last Name"
+                           placeholder="Last Name"
                            type="text">
-                    <input class="input-field input-email" aria-label="Email Address" placeholder="Email Address"
+                    <input name="email"
+                           class="input-field input-email"
+                           autocomplete="email"
+                           aria-label="Email Address"
+                           placeholder="Email Address"
                            type="email">
-                    <input class="input-field input-password" aria-label="Password" placeholder="Password"
+                    <input name="password"
+                           class="input-field input-password"
+                           autocomplete="new-password"
+                           aria-label="Password"
+                           placeholder="Password"
                            type="password">
+
                     <button class="[ clr-primary ] [ fnt-semi-bold ]">Claim your free trial</button>
+
                     <p class="[ fnt-medium ]">By clicking the button, you are agreeing to our
                         <span class="[ clr-exception ] [ fnt-bold ]">Terms and Services</span></p>
                 </form>
