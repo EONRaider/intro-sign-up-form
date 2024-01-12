@@ -19,6 +19,10 @@ img {
     display: block;
 }
 
+input, button {
+    font-family: inherit;
+}
+
 @font-face {
     font-family: Poppins;
     src: url("../fonts/Poppins-Regular.ttf");
